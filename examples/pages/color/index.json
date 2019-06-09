@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "Color 色彩",
+  "usingComponents": {
+    "eqx-card": "../../dist/card/index",
+    "eqx-row": "../../dist/row/index",
+    "eqx-col": "../../dist/col/index",
+    "eqx-panel": "../../dist/panel/index"
+  }
+}

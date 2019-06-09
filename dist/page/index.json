@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents":
+  {
+    "eqx-button": "../button/index"
+  }
+}

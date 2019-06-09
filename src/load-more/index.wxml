@@ -1,0 +1,8 @@
+<view class="eqx-class eqx-load-more {{ loading ? '' : 'eqx-load-more-line' }}">
+    <view class="eqx-load-more-loading" wx:if="{{ loading }}"></view>
+    <view class="eqx-load-more-tip">
+        <view wx:if="{{ tip !== '' }}">{{ tip }}</view>
+        <view wx:elif="{{ tip === '' && loading }}">正在加载</view>
+        <view class="eqx-load-more-empty" wx:else></view>
+    </view>
+</view>

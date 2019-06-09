@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Message 全局提醒",
+  "usingComponents": {
+    "eqx-message": "../../dist/message/index",
+    "eqx-button": "../../dist/button/index"
+  }
+}

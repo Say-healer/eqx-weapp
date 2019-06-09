@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "Button 按钮",
+  "usingComponents": {
+    "eqx-button": "../../dist/button/index",
+    "eqx-panel": "../../dist/panel/index"
+  }
+}

@@ -1,0 +1,4 @@
+<view class="eqx-class eqx-panel">
+    <view wx:if="{{ title }}" class="eqx-panel-title {{ hideTop ? 'eqx-panel-title-hide-top' : '' }}">{{ title }}</view>
+    <view class="eqx-panel-content {{ hideBorder ? 'eqx-panel-without-border' : '' }}"><slot></slot></view>
+</view>

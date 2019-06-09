@@ -1,0 +1,11 @@
+<view class="eqx-class eqx-card {{ full ? 'eqx-card-full' : '' }}">
+    <view class="eqx-class eqx-card-header">
+        <view class="eqx-card-header-content">
+            <image class="eqx-card-header-thumb" src="{{ thumb }}" mode="aspectFit" wx:if="{{ thumb }}" />
+            {{ title }}
+        </view>
+        <view class="eqx-card-header-extra" wx:if="{{ extra }}">{{ extra }}</view>
+    </view>
+    <view class="eqx-class eqx-card-body"><slot name="content"></slot></view>
+    <view class="eqx-class eqx-card-footer"><slot name="footer"></slot></view>
+</view>

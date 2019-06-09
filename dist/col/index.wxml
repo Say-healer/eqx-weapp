@@ -1,0 +1,1 @@
+<view class="eqx-class eqx-col {{ span ? 'eqx-col-span-' + span : '' }} {{ offset ? 'eqx-col-offset-' + offset : '' }}"><slot></slot></view>

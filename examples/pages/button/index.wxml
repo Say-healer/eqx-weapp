@@ -1,0 +1,30 @@
+<eqx-panel title="一般用法"></eqx-panel>
+
+<eqx-button bind:click="handleClick" inline>行内按钮</eqx-button>
+<eqx-button bind:click="handleClick" inline type="primary">行内按钮</eqx-button>
+<eqx-button bind:click="handleClick" inline type="success">行内按钮</eqx-button>
+
+<eqx-button bind:click="handleClick">默认按钮</eqx-button>
+<eqx-button bind:click="handleClick" type="error" long="true">联通两边按钮</eqx-button>
+<eqx-button bind:click="handleClick" type="primary">Primary</eqx-button>
+<eqx-button bind:click="handleClick" type="ghost">Ghost</eqx-button>
+<eqx-button bind:click="handleClick" type="info">Info</eqx-button>
+<eqx-button bind:click="handleClick" type="success">Success</eqx-button>
+<eqx-button bind:click="handleClick" type="warning">Warning</eqx-button>
+<eqx-button bind:click="handleClick" type="error">Error</eqx-button>
+
+<eqx-panel title="不同尺寸"></eqx-panel>
+
+<eqx-button bind:click="handleClick" type="primary" size="large">大尺寸</eqx-button>
+<eqx-button bind:click="handleClick" type="primary" size="default">默认尺寸</eqx-button>
+<eqx-button bind:click="handleClick" type="primary" size="small">小尺寸</eqx-button>
+
+<eqx-panel title="圆角的不同尺寸"></eqx-panel>
+
+<eqx-button bind:click="handleClick" type="success" shape="circle" size="large">大尺寸</eqx-button>
+<eqx-button bind:click="handleClick" type="success" shape="circle">默认尺寸</eqx-button>
+<eqx-button bind:click="handleClick" type="success" shape="circle" size="small">小尺寸</eqx-button>
+
+<eqx-button bind:click="handleClick" type="primary" loading="true">加载中按钮</eqx-button>
+
+<eqx-button bind:click="handleClick" type="primary" disabled>禁用按钮</eqx-button>

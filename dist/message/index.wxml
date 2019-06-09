@@ -1,0 +1,3 @@
+<view class="eqx-class eqx-message eqx-message-{{type}} {{ visible ? 'eqx-message-show' : '' }}">
+    {{ content }}
+</view>

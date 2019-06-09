@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "Grid 宫格",
+  "usingComponents": {
+    "eqx-grid": "../../dist/grid/index",
+    "eqx-grid-item": "../../dist/grid-item/index",
+    "eqx-grid-icon": "../../dist/grid-icon/index",
+    "eqx-grid-label": "../../dist/grid-label/index",
+    "eqx-icon": "../../dist/icon/index",
+    "eqx-row": "../../dist/row/index"
+  }
+}

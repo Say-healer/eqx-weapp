@@ -1,0 +1,1 @@
+<view class="eqx-class eqx-row"><slot></slot></view>

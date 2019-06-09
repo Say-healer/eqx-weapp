@@ -1,0 +1,62 @@
+<eqx-grid>
+    <eqx-row>
+        <eqx-grid-item>
+            <eqx-grid-icon>
+                <eqx-icon size="24" type="activity" />
+                <eqx-grid-label>宫格</eqx-grid-label>
+            </eqx-grid-icon>
+        </eqx-grid-item>
+        <eqx-grid-item>
+            <eqx-grid-icon>
+                <eqx-icon size="24" type="addressbook" />
+                <eqx-grid-label>宫格</eqx-grid-label>
+            </eqx-grid-icon>
+        </eqx-grid-item>
+        <eqx-grid-item>
+            <eqx-grid-icon>
+                <eqx-icon size="24" type="barrage" />
+                <eqx-grid-label>宫格</eqx-grid-label>
+            </eqx-grid-icon>
+        </eqx-grid-item>
+    </eqx-row>
+    <eqx-row>
+        <eqx-grid-item>
+            <eqx-grid-icon>
+                <eqx-icon size="24" type="collection" />
+                <eqx-grid-label>宫格</eqx-grid-label>
+            </eqx-grid-icon>
+        </eqx-grid-item>
+        <eqx-grid-item>
+            <eqx-grid-icon>
+                <eqx-icon size="24" type="computer" />
+                <eqx-grid-label>宫格</eqx-grid-label>
+            </eqx-grid-icon>
+        </eqx-grid-item>
+        <eqx-grid-item>
+            <eqx-grid-icon>
+                <eqx-icon size="24" type="coupons" />
+                <eqx-grid-label>宫格</eqx-grid-label>
+            </eqx-grid-icon>
+        </eqx-grid-item>
+    </eqx-row>
+    <eqx-row>
+        <eqx-grid-item>
+            <eqx-grid-icon>
+                <eqx-icon size="24" type="flag" />
+                <eqx-grid-label>宫格</eqx-grid-label>
+            </eqx-grid-icon>
+        </eqx-grid-item>
+        <eqx-grid-item>
+            <eqx-grid-icon>
+                <eqx-icon size="24" type="interactive" />
+                <eqx-grid-label>宫格</eqx-grid-label>
+            </eqx-grid-icon>
+        </eqx-grid-item>
+        <eqx-grid-item>
+            <eqx-grid-icon>
+                <eqx-icon size="24" type="mail" />
+                <eqx-grid-label>宫格</eqx-grid-label>
+            </eqx-grid-icon>
+        </eqx-grid-item>
+    </eqx-row>
+</eqx-grid>

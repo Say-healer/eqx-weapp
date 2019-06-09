@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Icon 图标",
+  "usingComponents": {
+    "eqx-icon": "../../dist/icon/index",
+    "eqx-grid": "../../dist/grid/index",
+    "eqx-grid-item": "../../dist/grid-item/index"
+  }
+}
