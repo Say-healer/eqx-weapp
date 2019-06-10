@@ -1,0 +1,22 @@
+<view class='eqx-class eqx-tabs {{type == "line" ? "eqx-tabs-line" : "eqx-tabs-card" }}' style=' margin:0rpx {{margin}}px'>
+  <scroll-view scroll-x="true" class="eqx-tabs-scroll">
+  <!-- 底部线条 -->
+  <view wx:if="{{ type === 'line' }}" class="eqx-tabs__line" style="{{ lineStyle }}" />
+    <view 
+    class="eqx-tabs-items  {{index==active?'eqx-tabs--active':''}}" 
+    style="width:{{itemWidth}}{{type == 'line' ? 'rpx' : '%'}};"
+    data-index="{{ index }}"
+    data-type="{{ item.type }}"
+    wx:for="{{ tabMenu }}" 
+    wx:key='{{tabMenu.id}}'
+    bind:tap="onTap"
+    >
+      <view >
+        {{item.title}}
+      </view>
+    </view>
+  </scroll-view>
+
+</view>
+
+  

@@ -1,0 +1,9 @@
+
+<eqx-panel title="卡片式">
+<eqx-tabs type='card' active='{{typeIndex}}' wx:if='{{tabsList.length >0}}' tabMenu='{{tabsList}}' bind:onChange='handleTabChangeType' swipeThreshold='{{2}}' margin='{{40}}'  />
+</eqx-panel>
+
+<eqx-panel title="线性">
+<eqx-tabs type='line' active='{{typeIndex}}' wx:if='{{tabsList.length >0}}' tabMenu='{{tabsList}}' bind:onChange='handleTabChangeType' swipeThreshold='{{3}}'   />
+
+</eqx-panel>

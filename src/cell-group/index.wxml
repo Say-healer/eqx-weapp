@@ -1,3 +1,0 @@
-<view class="eqx-class eqx-cell-group">
-    <slot></slot>
-</view>

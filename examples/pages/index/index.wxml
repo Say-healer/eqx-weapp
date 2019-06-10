@@ -28,3 +28,8 @@
         <eqx-cell title="LoadMore 页底提示" is-link url="/pages/load-more/index"></eqx-cell>
     </eqx-cell-group>
 </eqx-panel>
+<eqx-panel title="导航">
+    <eqx-cell-group>
+        <eqx-cell title="导航" is-link url="/pages/tabs/index"></eqx-cell>
+    </eqx-cell-group>
+</eqx-panel>

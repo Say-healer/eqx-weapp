@@ -1,8 +1,9 @@
 {
   "name": "eqx-weapp",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "微信小程序组件",
-  "main": "app.js",
+  "main": "dist",
+  "miniprogram":"dist",
   "directories": {
     "example": "example"
   },
