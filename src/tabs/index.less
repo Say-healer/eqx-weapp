@@ -1,13 +1,30 @@
 .eqx-tabs {
   margin: 0 auto;
   position: relative;
+  &-card {
+    padding:30rpx 0;
+    margin: 30rpx 60rpx;
+  }
+  &-items {
+    text-align: center;
+    font-size: 30rpx;
+    color: #7c7c7c;
+    display: inline-block;
+  }
+
+  &__line {
+    position: absolute;
+    top: 56rpx;
+    left: 0;
+    z-index: 1;
+    height: 8rpx;
+    width: 48rpx;
+    background-color: #1593FF;
+    border-radius: 6rpx;
+  }
   
 }
 
-.eqx-tabs-card {
-  padding:30rpx 0;
-  margin: 30rpx 60rpx;
-}
 .eqx-tabs-card .eqx-tabs-scroll {
   background:rgba(245,245,245,1);
   border-radius:64rpx;
@@ -32,25 +49,9 @@
 }
 
 
-.eqx-tabs-items {
-  text-align: center;
-  font-size: 30rpx;
-  color: #7c7c7c;
-  display: inline-block;
-}
 .eqx-tabs-line .eqx-tabs--active {
   color: #1593FF;
   background: #fff;
 }
 
-.eqx-tabs__line {
-  position: absolute;
-  top: 56rpx;
-  left: 0;
-  z-index: 1;
-  height: 8rpx;
-  width: 48rpx;
-  background-color: #1593FF;
-  border-radius: 6rpx;
-}
 
